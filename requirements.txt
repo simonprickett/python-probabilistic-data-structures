@@ -1,0 +1,3 @@
+hyperloglog==0.0.12
+pyprobables==0.4.0
+redis==3.5.3
