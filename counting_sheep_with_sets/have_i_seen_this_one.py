@@ -1,4 +1,6 @@
-sheep_seen = { "1934", "1201", "1199", "0007", "3409", "1015" }
+sheep_seen = { 
+    "1934", "1201", "1199", "0007", "3409", "1015"
+}
 
 def have_i_seen(sheep_id):
     if sheep_id in sheep_seen:
