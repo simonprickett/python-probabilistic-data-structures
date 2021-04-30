@@ -16,5 +16,3 @@ def have_i_seen(sheep_id):
 
 have_i_seen("9018")
 have_i_seen("454991")
-
-
