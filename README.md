@@ -1,6 +1,6 @@
 # No, Maybe and Close Enough!
 
-Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA talk.  If you'd like to see the slides for this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  I'll add a link to the video of the talk as one becomes available.
+Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA talk.  If you'd like to see the slides for this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  Watch the video [here](https://www.youtube.com/watch?v=hM1JPkEUtks).
 
 This repository contains supporting code to run the examples from my talk.  The example code uses in memory probabilistic data structures with the [hyperloglog](https://pypi.org/project/hyperloglog/) and [pyprobables](https://pypi.org/project/pyprobables/) libraries.  It also uses [Redis](https://redis.io) with the [RedisBloom](https://redisbloom.io) module: this is provided for you as a Docker container.
 
