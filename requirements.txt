@@ -1,3 +1,8 @@
-hyperloglog==0.0.12
-pyprobables==0.4.0
-redis==3.5.3
+async-timeout==4.0.2
+Deprecated==1.2.13
+hyperloglog==0.0.13
+packaging==21.3
+pyparsing==3.0.9
+pyprobables==0.5.6
+redis==4.3.4
+wrapt==1.14.1
