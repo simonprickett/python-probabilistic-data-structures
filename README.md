@@ -1,6 +1,6 @@
 # No, Maybe and Close Enough!
 
-Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA and Australia talk.  I've updated the code slightly for Pycon 2022 - it now uses the latest redis-py Redis client.
+Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA and Australia talk.  I've updated the code slightly for Pycon MEA Dubai 2022 - it now uses the latest redis-py Redis client.
 
 If you'd like to see the slides for the 2021 version of this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  Watch the 2021 video [here](https://www.youtube.com/watch?v=hM1JPkEUtks).
 
