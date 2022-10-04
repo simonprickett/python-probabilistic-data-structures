@@ -3,13 +3,9 @@ version: "3.9"
 services:
   redis:
     container_name: redisprobabilistic
-    image: "redislabs/redismod"
+    image: "redis/redis-stack:latest"
     ports:
       - 6379:6379
-    entrypoint:
-      redis-server
-        --loadmodule /usr/lib/redis/modules/redisbloom.so
-        --appendonly yes
     deploy:
       replicas: 1
       restart_policy:

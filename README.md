@@ -1,8 +1,10 @@
 # No, Maybe and Close Enough!
 
-Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA talk.  If you'd like to see the slides for this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  Watch the video [here](https://www.youtube.com/watch?v=hM1JPkEUtks).
+Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA and Australia talk.  I've updated the code slightly for Pycon 2022 - it now uses the latest redis-py Redis client.
 
-This repository contains supporting code to run the examples from my talk.  The example code uses in memory probabilistic data structures with the [hyperloglog](https://pypi.org/project/hyperloglog/) and [pyprobables](https://pypi.org/project/pyprobables/) libraries.  It also uses [Redis](https://redis.io) with the [RedisBloom](https://redisbloom.io) module: this is provided for you as a Docker container.
+If you'd like to see the slides for the 2021 version of this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  Watch the 2021 video [here](https://www.youtube.com/watch?v=hM1JPkEUtks).
+
+This repository contains supporting code to run the examples from my talk.  The example code uses in memory probabilistic data structures with the [hyperloglog](https://pypi.org/project/hyperloglog/) and [pyprobables](https://pypi.org/project/pyprobables/) libraries.  It also uses [Redis](https://redis.io) with the [RedisBloom](https://redisbloom.io) module: this is provided for you as part of [Redis Stack](https://redis.io/docs/stack/get-started/) in a Docker container.
 
 The two probabilistic data structures examined in this code base are:
 
@@ -70,7 +72,7 @@ Approximate count with Python in memory HyperLogLog, compares count with an in m
 
 ```bash
 (venv) $ cd ../approximating_sheep_python
-(venv) $ python3 how_many.py
+(venv) $ python how_many.py
 There are 100000 sheep (set).
 There are 100075 sheep (hyperloglog).
 ```
