@@ -2,7 +2,7 @@
 
 Exploring Probabilistic Data Structures in Python - my 2021 Pycon USA and Australia talk.  I've updated the code slightly for Pycon MEA Dubai 2022 - it now uses the latest redis-py Redis client.
 
-![Lots of sheep in a field](counting_things.png)
+![Title Page](counting_things.png)
 
 If you'd like to see the slides for the 2021 version of this talk, they're [here](https://simonprickett.dev/no_maybe_and_close_enough_slides.pdf) (PDF).  Watch the 2021 video [here](https://www.youtube.com/watch?v=hM1JPkEUtks) or [read the transcript on my website](https://simonprickett.dev/no-maybe-and-good-enough-probabilistic-data-structures-in-python/).  I gave a shorter version of this talk in person for Pycon MEA Dubai 2022 - [watch that here](https://www.youtube.com/watch?v=tqy8WtjBe1Q).
 
